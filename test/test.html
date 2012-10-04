@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src ="../Module.js" type="text/javascript"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        var module = new Module("a.js", "b.js").export("a");
+        document.write(module.a);
+    </script>
+</body>
+</html>
